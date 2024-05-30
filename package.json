@@ -1,0 +1,16 @@
+{
+  "name": "gutenberg-block-dynamic-banner",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "Martin Naglič",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.11.0"
+  }
+}

@@ -1,0 +1,175 @@
+@keyframes scrollRightToLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner{
+    max-width: 840px;
+    margin: 20px auto;
+    /*border: 1px solid red;
+    height: 100px;*/
+}
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .set-elements {
+    display:flex;
+}   
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .set-elements .element {
+    width:25%;
+    flex-basis: 25%;
+}  
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .set-elements .image-upload {
+
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .set-elements .image-upload button {
+    background: #fff;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid #000;
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .set-elements .image-upload img {
+    width: 90%;
+    margin: 5%;
+}
+
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .set-elements .custom-rich-text {
+    /*font-family: 'Playfair Display', serif;*/
+    font-size: 30px;
+    padding: .5em;
+}
+
+/*.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .set-elements .custom-rich-text span.playfair-display{
+    font-family: 'Playfair Display', serif;
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .set-elements .custom-rich-text span.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .set-elements .custom-rich-text span.open-sans-thin{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*SECONDARY*/
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .secondary-container{
+    display: flex;
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .secondary-container .sec-field{
+    width:50%;
+    flex-basis: 50%;
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .secondary-container .separator-container .image-upload button {
+    background: #fff;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid #000;
+}
+
+
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .secondary-container .background-color {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .secondary-container .background-color .components-circular-option-picker__swatches { 
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PREVIEW*/
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .preview{
+    overflow:hidden;
+    height: 50px;
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .preview .slide-track {
+    display:flex;
+    height: 100%;
+    /*animation: scrollRightToLeft 10s linear infinite;*/
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .preview .dynamic-banner-element{
+    height: 40px;
+    margin: auto 20px;
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .preview .dynamic-banner-element blockquote{
+    margin: 0;
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .preview .dynamic-banner-separator{
+    height: 40px;
+    margin: auto;
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .preview img {
+    height: 40px;
+    object-fit: contain;
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .preview blockquote{
+    font-size: 30px;
+    line-height: 38px;
+    margin: 0;
+}
+
+/*.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .preview blockquote span.playfair-display{
+    font-family: 'Playfair Display', serif;
+}
+
+.wp-block-mn-custom-block-dynamic-banner-dynamic-banner .preview blockquote span.open-sans{
+    font-family: 'Open Sans', sans-serif;
+}*/
+
+
+@keyframes scrollRightToLeft {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+

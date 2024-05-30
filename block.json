@@ -1,0 +1,10 @@
+{
+    "apiVersion": 3,
+    "title": "Custom Dynamic Banner",
+    "name": "mn-custom-block-dynamic-banner/dynamic-banner",
+    "category": "media",
+    "icon": "slides",
+    "editorScript": "file:./build/index.js",
+    "editorStyle": "file:./src/css/editor.css",
+    "style": "file:./src/css/style.css"
+}
